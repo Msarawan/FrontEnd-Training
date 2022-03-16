@@ -1,0 +1,152 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:0 200px 0;
+    font-size: 20px;
+    margin:0,auto;
+}
+
+.sidenav {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:black;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:white;
+  display: block;
+}
+.sidenav a:hover {
+  color: gray;
+}
+.menu{
+  display:flex;
+  justify-content: space-between;
+}
+.menu img{
+  width: 8vh;
+  height: 6vh;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+h1{
+  display:inline-block;
+  justify-content: space-between;
+  font-weight:lighter;
+}
+  
+  h4{
+      font-size: larger;
+  }
+  #Food{
+      box-sizing: border-box;
+  }
+  .row{
+    display:flex;
+    justify-content:space-around;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .column{ 
+    width:20%;
+    height:10%;
+    padding:10px;
+    position: relative;
+ }
+
+  .column img{
+     width:100%;
+     height: 45vh;
+}
+/* Button */
+.symbol{
+    padding-left:30% ;
+    width:50%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+ button{
+    color:white;
+    background-color: black;
+    padding: 2% 2%;
+    cursor: pointer;
+  }  
+  button:hover{
+      background-color: gray;
+  }
+
+  /*ABOUT-SECTION*/
+  #About{
+      text-align: center;
+  }
+  #About p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:18px;
+  }
+  /*Footer*/
+   .row{
+       display: flex;
+       justify-content: space-between;
+   }
+   .blogs {
+    display:flex;
+    }
+  .blogs img{
+    width:12vh;
+    height:8vh;
+    padding-right: 1vh;}
+  
+  span{
+      background-color:grey;
+      color: white;
+      display: inline-block;
+    font-size: 15px;
+}
+  
+
+/* Media Query */
+@media only screen and (max-width:800px){
+  
+  .row{
+    display: block;
+   }
+  .column{
+  width:100%;
+  margin:10% auto;
+  }
+  .column img{
+    width:80%;
+    height:40vh ;
+  }
+  #About img {
+    width: 100%;
+  }
+  
+  .blogs img{
+    width:20%;
+    height:10%;
+  }
+  
+ }
+
+
+
+
+  
+
+
+
+
+    
